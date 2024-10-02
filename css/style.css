@@ -414,3 +414,19 @@ footer{
     color: #C4C4C4 !important;
 }
 /*===== Best Seller Part End =====*/
+
+/*===== Best Seller Part Start =====*/
+.credit{
+    text-align: center;
+    font-family: var(--Poppins);
+    font-weight: 600;
+    font-size: 15px;
+}
+.credit a{
+    color: #000;
+    font-weight: 900;
+}
+.credit .fa-heart{
+    color: rgb(255, 0, 0);
+}
+/*===== Best Seller Part End =====*/
