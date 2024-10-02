@@ -18,6 +18,8 @@ ul , ol{
 }
 :root{
     --Poppins: "Poppins", sans-serif;
+    --FRL: "Frank Ruhl Libre", serif;
+    --Podkova: "Podkova", serif;
 }
 /*===== Common CSS Part End =====*/
 
@@ -67,17 +69,351 @@ nav{
 }
 /*===== Navbar Part End =====*/
 
-/*===== Navbar Part Start =====*/
-/*===== Navbar Part End =====*/
+/*===== Fashion Style Part Start =====*/
+#fuhadShiblu_fashionPartMain{
+    margin-top: 112px;
+}
+.fuhadShiblu_fashionTxtAreaImg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fuhadShiblu_fashionTextArea h1{
+    width: 431px;
+    height: 263px;
+    font-size: 64px;
+    font-weight: 600;
+    font-family: var(--Poppins);
+    color: #000;
+}
+.fuhadShiblu_fashionTextArea p{
+    width: 505px;
+    height: 128px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: var(--Poppins);
+    color: #000;
+    margin-top: 38px;
+    margin-bottom: 76px;
+}
+.fuhadShiblu_fashionTextArea a{
+    padding: 25px 91px 25px 91px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--Poppins);
+    color: #fff;
+    background: #000;
+    border-radius: 10px;
+    transition: all linear .1s;
+}
+.fuhadShiblu_fashionTextArea a:active{
+    box-shadow: -1px 0px 21px 10px rgba(89,88,88,1);
+}
+.fuhadShiblu_fashionTextArea a:hover{
+    background: linear-gradient(100deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.fuhadShiblu_fashionImg{
+    width: 535px;
+    height: 643px;
+    overflow: hidden;
+}
+.fuhadShiblu_fashionImg img{
+    border-bottom-left-radius: 195px;
+    transition: all linear .1s;
+}
+.fuhadShiblu_fashionImg:hover img{
+    transform: scale(1.5);
+}
+/*===== Fashion Style Part End =====*/
 
-/*===== Navbar Part Start =====*/
-/*===== Navbar Part End =====*/
+/*===== Collection Part Start =====*/
+#fuhadShiblu_collectionMain{
+    margin-top: 100px;
+}
+.fuhadShiblu_collectionTxtArea{
+    text-align: center;
+    color: #000;
+}
+.fuhadShiblu_collectionTxtArea h2{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: var(--FRL);
+}
+.fuhadShiblu_collectionTxtArea p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: var(--Poppins);
+    margin: 22px 40px;
+}
+.fuhadShiblu_collectionImgAll{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fuhadShiblu_collectionImg1{
+    width: 349px;
+    height: 402px;
+    border-radius: 20px;
+    background: url(../img/Sweats1.png);
+    overflow: hidden;
+    position: relative;
+}
+.fuhadShiblu_collectionImg1 a{
+    width: 315px;
+    height: 57px;
+    color: #000;
+    background: #fff;
+    text-align: center;
+    line-height: 57px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: var(--Poppins);
+    position: absolute;
+    left: -50%;
+    bottom: 44px;
+    transform: translateX(-50%);
+    transition: all linear .1s;
+}
+.fuhadShiblu_collectionImg1:hover a{
+    left: 50%;
+}
+.fuhadShiblu_collectionImg1 a:hover{
+    color: #fff;
+    background: #000;
+}
+.fuhadShiblu_collectionImg2{
+    width: 349px;
+    height: 402px;
+    border-radius: 20px;
+    background: url(../img/Sweats2.png);
+    overflow: hidden;
+    position: relative;
+}
+.fuhadShiblu_collectionImg2 a{
+    width: 315px;
+    height: 57px;
+    color: #000;
+    background: #fff;
+    text-align: center;
+    line-height: 57px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: var(--Poppins);
+    position: absolute;
+    left: 50%;
+    bottom: -60px;
+    transform: translateX(-50%);
+    transition: all linear .1s;
+}
+.fuhadShiblu_collectionImg2:hover a{
+    bottom: 44px;
+}
+.fuhadShiblu_collectionImg2 a:hover{
+    color: #fff;
+    background: #000;
+}
+.fuhadShiblu_collectionImg3{
+    width: 349px;
+    height: 402px;
+    border-radius: 20px;
+    background: url(../img/Sweats3.png);
+    overflow: hidden;
+    position: relative;
+}
+.fuhadShiblu_collectionImg3 a{
+    width: 315px;
+    height: 57px;
+    color: #000;
+    background: #fff;
+    text-align: center;
+    line-height: 57px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: var(--Poppins);
+    position: absolute;
+    left: 150%;
+    bottom: 44px;
+    transform: translateX(-50%);
+    transition: all linear .1s;
+}
+.fuhadShiblu_collectionImg3:hover a{
+    left: 50%;
+}
+.fuhadShiblu_collectionImg3 a:hover{
+    color: #fff;
+    background: #000;
+}
+/*===== Collection Part End =====*/
 
-/*===== Navbar Part Start =====*/
-/*===== Navbar Part End =====*/
+/*===== Best Fashion Part Start =====*/
+#fuhadShiblu_bestFashionMain{
+    margin-top: 93px;
+    margin-bottom: 100px;
+}
+.fuhadShiblu_bestFashionArea{
+    position: relative;
+}
+.fuhadShiblu_bestFashionArea img{
+    width: 749px;
+    height: 734px;
+}
+.fuhadShiblu_TxtAreaMain{
+    position: absolute;
+    top: 119px;
+    left: 830px;
+}
+.fuhadShiblu_TxtAreaMain h3{
+    width: 376px;
+    height: 162px;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: var(--FRL);
+}
+.fuhadShiblu_TxtAreaMain p{
+    width: 415px;
+    height: 186px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--Poppins);
+    margin: 63px 0 132px 0;
+}
+.fuhadShiblu_CounterAreaMain{
+    margin-top: -90px;
+    margin-left: 530px;
+}
+.fuhadShiblu_CounterArea{
+    width: 793px;
+    height: 280px;
+    background: #FEECC8;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fuhadShiblu_counter{
+    width: 182px;
+    text-align: center;
+}
+.fuhadShiblu_counter h4{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: var(--Podkova);
+    color: #000;
+    margin-bottom: 28px;
+}
+.fuhadShiblu_counter p{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: var(--Poppins);
+    color: #000;
+}
+.fuhadShiblu_line{
+    width: 1px;
+    height: 143px;
+    background: #000;
+}
+/*===== Best Fashion Part End =====*/
 
-/*===== Navbar Part Start =====*/
-/*===== Navbar Part End =====*/
+/*===== Best Seller Part Start =====*/
+footer{
+    background: #CFA485;
+}
+.fuhadShiblu_bestSellerArea{
+    display: flex;
+    gap: 26px;
+}
+.fuhadShiblu_bestSellerTxtArea{
+    padding: 35px 0 192px 134px;
+}
+.fuhadShiblu_bestSellerTxtArea h5{
+    width: 315px;
+    height: 162px;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: var(--FRL);
+    color: #fff;
+}
+.fuhadShiblu_bestSellerTxtArea p{
+    width: 437px;
+    height: 248px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--FRL);
+    color: #fff;
+    margin: 43px 0 62px 0;
+}
+.fuhadShiblu_bestSellerTxtArea a{
+    padding: 25px 100px 25px 100px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--Poppins);
+    color: #fff;
+    text-transform: uppercase;
+    background: #000;
+    border-radius: 10px;
+    border: 1px solid #000;
+    transition: all linear .1s;
+}
+.fuhadShiblu_bestSellerTxtArea a:hover{
+    color: #000;
+    background: transparent;
+}
+.fuhadShiblu_bestSellerImg{
+    padding-top: 56px;
+    display: flex;
+    gap: 31px;
+}
+.fuhadShiblu_bestSellerImgTxt img{
+    transition: all linear .1s;
+}
+.fuhadShiblu_bestSellerImgTxt img:hover{
+    transform: scale(1.1);
+}
+.fuhadShiblu_bestSellerImgTxt{
+    width: 366px;
+    height: 551px;
+    background: #fff;
+    overflow: hidden;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+.fuhadShiblu_stars{
+    margin: 14px 0 11px 22px;
+}
+.fuhadShiblu_stars ul{
+    display: flex;
+    gap: 8px;
+}
+.fuhadShiblu_stars ul li{
+    width: 18px;
+    height: 20px;
+    color: #FFAF37;
+}
+.fuhadShiblu_bestSellerImgTxt h6{
+    margin: 0 0 1px 22px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: var(--Poppins);
+    color: #000;
+}
+.fuhadShiblu_price{
+    margin-left: 22px;
+    display: flex;
+    gap: 31px;
+}
+.fuhadShiblu_price p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: var(--Poppins);
+    color: #000;
+}
+.fuhadShiblu_offPrice{
+    color: #C4C4C4 !important;
+}
+/*===== Best Seller Part End =====*/
 
 /*===== Navbar Part Start =====*/
 /*===== Navbar Part End =====*/
