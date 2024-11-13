@@ -451,4 +451,22 @@ footer{
     gap: 31px;
     margin-top: 56px;
 }
+.fuhadShiblu_credit{
+    margin-top: 30px;
+    text-align: center;
+    padding: 0 10px 0 10px;
+    color: #000;
+}
+.fuhadShiblu_credit a{
+    color: #000;
+}
+.fuhadShiblu_credit a:hover{
+    text-decoration: underline;
+}
+.fa-heart{
+    color: #ff0000;
+}
+.fa-html5{
+    color: #b94806;
+}
 /*========== Footer CSS Part End ==========*/
